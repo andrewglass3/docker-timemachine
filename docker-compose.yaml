@@ -7,14 +7,6 @@ services:
   ports:
   - 548:548
   - 636:636
-#  - 443:443
-#  - 8082:8082
-#  environment:
-#       - SEAFILE_ADDRESS=127.0.0.1
-#       - SEAFILE_SERVER_LETSENCRYPT=true
-#       - SEAFILE_SERVER_HOSTNAME=seafile.linuxdojo.co.uk
-#       - SEAFILE_ADMIN_EMAIL=andrew.glass@outlook.com
-#       - SEAFILE_ADMIN_PASSWORD=d242150l
-#       - ENABLE_TWO_FACTOR_AUTH = True
+  
   volumes:
     - /dockerstore/timemachine:/timemachine
